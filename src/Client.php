@@ -2,6 +2,7 @@
 
 namespace ApiClients\Client\WeatherUnderground;
 
+use ApiClients\Client\WeatherUnderground\Resource\ConditionInterface;
 use ApiClients\Client\WeatherUnderground\Resource\UserInterface;
 use React\EventLoop\Factory;
 use React\EventLoop\LoopInterface;
@@ -19,16 +20,16 @@ final class Client
      */
     private $client;
 
-    public function __construct(AuthenticationInterface $auth)
+    public function __construct(string $token)
     {
         $this->loop = Factory::create();
-        $this->client = AsyncClient::create($this->loop, $auth);
+        $this->client = AsyncClient::create($this->loop, $token);
     }
 
-    public function user(string $user): UserInterface
+    public function conditions(string $location): ConditionInterface
     {
         return await(
-            $this->client->user($user),
+            $this->client->conditions($location),
             $this->loop
         );
     }

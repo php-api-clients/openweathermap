@@ -1,0 +1,44 @@
+{
+    "name": "api-clients/weather-underground",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "api-clients/client-services": "dev-master",
+        "api-clients/foundation": "dev-master",
+        "api-clients/service": "dev-master"
+    },
+    "require-dev": {
+        "api-clients/resource-generator": "dev-master",
+        "api-clients/resource-test-utilities": "dev-master",
+        "api-clients/test-utilities": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiClients\\Client\\WeatherUnderground\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiClients\\Tests\\Client\\WeatherUnderground\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "api-clients": {
+            "command-bus": {
+                "path": "src/CommandBus",
+                "namespace": "ApiClients\\Client\\WeatherUnderground\\CommandBus"
+            }
+        }
+    }
+}

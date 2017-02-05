@@ -1,0 +1,4 @@
+class: Time
+properties:
+  hour: string
+  minute: string

@@ -1,0 +1,5 @@
+class: Image
+properties:
+  url: string
+  title: string
+  link: string

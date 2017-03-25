@@ -32,7 +32,7 @@ final class ConditionsHandler
      */
     public function handle(ConditionsCommand $command): PromiseInterface
     {
-        return $this->service->handle(
+        return $this->service->fetch(
             'conditions/q/' . $command->getLocation() . '.json',
             'current_observation',
             ConditionInterface::HYDRATE_CLASS

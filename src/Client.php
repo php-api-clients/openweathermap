@@ -2,6 +2,7 @@
 
 namespace ApiClients\Client\WeatherUnderground;
 
+use ApiClients\Client\WeatherUnderground\Resource\AstronomyInterface;
 use ApiClients\Client\WeatherUnderground\Resource\ConditionInterface;
 use ApiClients\Client\WeatherUnderground\Resource\UserInterface;
 use React\EventLoop\Factory;
@@ -24,6 +25,14 @@ final class Client
     {
         $this->loop = Factory::create();
         $this->client = AsyncClient::create($this->loop, $token);
+    }
+
+    public function astronomy(string $location): AstronomyInterface
+    {
+        return await(
+            $this->client->astronomy($location),
+            $this->loop
+        );
     }
 
     public function conditions(string $location): ConditionInterface

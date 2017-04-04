@@ -442,12 +442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/transport.git",
-                "reference": "3437675937df0110d515be6c8099e6b7ca281964"
+                "reference": "a92f0a094d2439ff0f9799565d453889797975a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/3437675937df0110d515be6c8099e6b7ca281964",
-                "reference": "3437675937df0110d515be6c8099e6b7ca281964",
+                "url": "https://api.github.com/repos/php-api-clients/transport/zipball/a92f0a094d2439ff0f9799565d453889797975a0",
+                "reference": "a92f0a094d2439ff0f9799565d453889797975a0",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-03-23 16:48:30"
+            "time": "2017-03-27 19:54:19"
         },
         {
             "name": "clue/block-react",
@@ -1475,16 +1475,16 @@
         },
         {
             "name": "php-di/php-di",
-            "version": "5.4.1",
+            "version": "5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
-                "reference": "4ec345f6e7f5e18e955d0973f8611dcc0ab348be"
+                "reference": "bbe2ed4b48e5b832436bf50928c30af8aedf61f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/4ec345f6e7f5e18e955d0973f8611dcc0ab348be",
-                "reference": "4ec345f6e7f5e18e955d0973f8611dcc0ab348be",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/bbe2ed4b48e5b832436bf50928c30af8aedf61f8",
+                "reference": "bbe2ed4b48e5b832436bf50928c30af8aedf61f8",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1495,8 @@
                 "psr/container": "~1.0"
             },
             "provide": {
-                "container-interop/container-interop-implementation": "^1.0"
+                "container-interop/container-interop-implementation": "^1.0",
+                "psr/container-implementation": "^1.0"
             },
             "replace": {
                 "mnapoli/php-di": "*"
@@ -1532,7 +1533,7 @@
                 "dependency injection",
                 "di"
             ],
-            "time": "2017-03-22T21:09:54+00:00"
+            "time": "2017-03-27T19:30:46+00:00"
         },
         {
             "name": "php-di/phpdoc-reader",
@@ -1706,16 +1707,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v0.4.6",
+            "version": "v0.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "a4c32f0021c742a1781c445270cb29a2d4b76fed"
+                "reference": "e09ca286e3e18fea93317315dd7fc59d7963af8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/a4c32f0021c742a1781c445270cb29a2d4b76fed",
-                "reference": "a4c32f0021c742a1781c445270cb29a2d4b76fed",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/e09ca286e3e18fea93317315dd7fc59d7963af8a",
+                "reference": "e09ca286e3e18fea93317315dd7fc59d7963af8a",
                 "shasum": ""
             },
             "require": {
@@ -1723,7 +1724,7 @@
                 "react/cache": "~0.4.0|~0.3.0",
                 "react/promise": "~2.1|~1.2",
                 "react/promise-timer": "~1.1",
-                "react/socket": "^0.5 || ^0.4.4",
+                "react/socket": "^0.7 || ^0.6 || ^0.5 || ^0.4.4",
                 "react/stream": "^0.6 || ^0.5 || ^0.4.5"
             },
             "require-dev": {
@@ -1744,7 +1745,7 @@
                 "dns",
                 "dns-resolver"
             ],
-            "time": "2017-03-11T13:46:09+00:00"
+            "time": "2017-03-31T16:21:48+00:00"
         },
         {
             "name": "react/event-loop",
@@ -1931,16 +1932,16 @@
         },
         {
             "name": "react/socket",
-            "version": "v0.5.1",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "c0e337e375d5fb064da4ba62a91a29815e7502f8"
+                "reference": "8bcba5679d6e58e19da6684136d7d6b5aff68e7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/c0e337e375d5fb064da4ba62a91a29815e7502f8",
-                "reference": "c0e337e375d5fb064da4ba62a91a29815e7502f8",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/8bcba5679d6e58e19da6684136d7d6b5aff68e7a",
+                "reference": "8bcba5679d6e58e19da6684136d7d6b5aff68e7a",
                 "shasum": ""
             },
             "require": {
@@ -1953,7 +1954,7 @@
             "require-dev": {
                 "clue/block-react": "^1.1",
                 "phpunit/phpunit": "~4.8",
-                "react/socket-client": "^0.5.1"
+                "react/socket-client": "^0.6"
             },
             "type": "library",
             "autoload": {
@@ -1969,7 +1970,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2017-03-09T12:13:07+00:00"
+            "time": "2017-04-04T15:40:25+00:00"
         },
         {
             "name": "react/socket-client",
@@ -2058,16 +2059,16 @@
         },
         {
             "name": "reactivex/rxphp",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ReactiveX/RxPHP.git",
-                "reference": "4ad811032428074485d7ca99b779aec54b242982"
+                "reference": "ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ReactiveX/RxPHP/zipball/4ad811032428074485d7ca99b779aec54b242982",
-                "reference": "4ad811032428074485d7ca99b779aec54b242982",
+                "url": "https://api.github.com/repos/ReactiveX/RxPHP/zipball/ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe",
+                "reference": "ca5e94f7e7bacb9adcd4a3ed2b06a4a53e9ebcbe",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2120,7 @@
                 "reactive",
                 "rx"
             ],
-            "time": "2017-03-21T13:29:22+00:00"
+            "time": "2017-04-01T02:13:25+00:00"
         },
         {
             "name": "ringcentral/psr7",
@@ -2385,12 +2386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/resource-generator.git",
-                "reference": "2616556a4b4b4de3b83ddd0c185dab5cdfb71268"
+                "reference": "36970d14e893a8349514959f496be5c1b6e5357c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/resource-generator/zipball/2616556a4b4b4de3b83ddd0c185dab5cdfb71268",
-                "reference": "2616556a4b4b4de3b83ddd0c185dab5cdfb71268",
+                "url": "https://api.github.com/repos/php-api-clients/resource-generator/zipball/36970d14e893a8349514959f496be5c1b6e5357c",
+                "reference": "36970d14e893a8349514959f496be5c1b6e5357c",
                 "shasum": ""
             },
             "require": {
@@ -2430,7 +2431,7 @@
                 }
             ],
             "description": "Resource from YAML generation tool",
-            "time": "2017-01-21 23:14:42"
+            "time": "2017-04-04T05:56:16+00:00"
         },
         {
             "name": "api-clients/resource-test-utilities",
@@ -3144,16 +3145,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "4e99e1c4f9b05cbf4d6e84b100b3ff4107cf8cd1"
+                "reference": "37bbf491e6b585267ef1e0cbb0056f5c00ebf91c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4e99e1c4f9b05cbf4d6e84b100b3ff4107cf8cd1",
-                "reference": "4e99e1c4f9b05cbf4d6e84b100b3ff4107cf8cd1",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/37bbf491e6b585267ef1e0cbb0056f5c00ebf91c",
+                "reference": "37bbf491e6b585267ef1e0cbb0056f5c00ebf91c",
                 "shasum": ""
             },
             "require": {
@@ -3203,7 +3204,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-06T14:22:16+00:00"
+            "time": "2017-04-02T07:46:32+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",

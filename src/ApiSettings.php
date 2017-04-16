@@ -4,9 +4,9 @@ namespace ApiClients\Client\WeatherUnderground;
 
 use ApiClients\Foundation\Hydrator\Options as HydratorOptions;
 use ApiClients\Foundation\Options as FoundationOptions;
-use ApiClients\Foundation\Transport\Middleware\JsonDecodeMiddleware;
-use ApiClients\Foundation\Transport\Middleware\JsonEncodeMiddleware;
 use ApiClients\Foundation\Transport\Options as TransportOptions;
+use ApiClients\Middleware\Json\JsonDecodeMiddleware;
+use ApiClients\Middleware\Json\JsonEncodeMiddleware;
 use ApiClients\Middleware\UserAgent\Options as UserAgentMiddlewareOptions;
 use ApiClients\Middleware\UserAgent\UserAgentMiddleware;
 use ApiClients\Middleware\UserAgent\UserAgentStrategies;

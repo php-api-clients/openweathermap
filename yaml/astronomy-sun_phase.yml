@@ -1,0 +1,10 @@
+class: Astronomy\SunPhase
+properties:
+  sunrise:
+    type: Time
+    annotations:
+      nested: Time
+  sunset:
+    type: Time
+    annotations:
+      nested: Time

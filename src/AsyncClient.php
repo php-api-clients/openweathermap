@@ -46,4 +46,9 @@ final class AsyncClient
     {
         return $this->client->handle(new Command\ConditionsCommand($location));
     }
+
+    public function astronomy(string $location): PromiseInterface
+    {
+        return $this->client->handle(new Command\AstronomyCommand($location));
+    }
 }

@@ -1,0 +1,14 @@
+class: Astronomy
+properties:
+  response:
+    type: Response
+    annotations:
+      nested: Response
+  moon_phase:
+    type: Astronomy\MoonPhase
+    annotations:
+      nested: Astronomy\MoonPhase
+  sun_phase:
+    type: Astronomy\SunPhase
+    annotations:
+      nested: Astronomy\SunPhase

@@ -2465,7 +2465,7 @@
                 }
             ],
             "description": "Resource from YAML generation tool",
-            "time": "2017-04-27T20:38:27+00:00"
+            "time": "2017-04-27 20:38:27"
         },
         {
             "name": "api-clients/resource-test-utilities",
@@ -2473,12 +2473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-api-clients/resource-test-utilities.git",
-                "reference": "80e19e233d9f0760693d1b6d8024a318caabd452"
+                "reference": "1aaf9ec035daf4c748d629b3728e396355b1e07f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-api-clients/resource-test-utilities/zipball/80e19e233d9f0760693d1b6d8024a318caabd452",
-                "reference": "80e19e233d9f0760693d1b6d8024a318caabd452",
+                "url": "https://api.github.com/repos/php-api-clients/resource-test-utilities/zipball/1aaf9ec035daf4c748d629b3728e396355b1e07f",
+                "reference": "1aaf9ec035daf4c748d629b3728e396355b1e07f",
                 "shasum": ""
             },
             "require": {
@@ -2512,7 +2512,7 @@
                     "email": "ceesjank@gmail.com"
                 }
             ],
-            "time": "2017-04-27T20:34:18+00:00"
+            "time": "2017-04-27T20:45:27+00:00"
         },
         {
             "name": "api-clients/test-utilities",
